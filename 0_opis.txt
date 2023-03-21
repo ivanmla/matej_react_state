@@ -1,0 +1,11 @@
+$ cd 5_pred_fork_hooks
+$ git clone git@github.com:ivanmla/matej_react_state.git
+$ cd matej_react_state/
+$ git remote -v
+$ git checkout -b "hooks"
+
+make chanfes to function
+
+$ git add .
+$ git commit -m "useState hook example"
+$ git push origin hooks
