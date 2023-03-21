@@ -1,0 +1,51 @@
+16.03.
+
+pogledati videe
+tutorial za UseState: https://youtu.be/O6P86uwfdR0
+
+UKRATKO će predavač ponoviti State
+i useEffect (bitno)novo: u funkcijskim komponentama, novo dodano sa useStatom 
+lifecycle (teoretski) malo, koristi se u klasama
+
+
+radimo na repozitoriju iz prošlog primjera (react-state) 
+koristim forkani repo matej_react_state
+## novi branch iz maina:
+git switch main
+git checkout -b "ponavljanje-state"
+
+prepisati ćemo klasnu App.jsx u funkcijsku i child komponente također, sve u funkcijske
+malo slajdova, setState itd
+
+Komponente koje su prezentacijske, iako nemaju svoj state, mogu pozivati Handler (potem proppsa)
+
+App.jsx:
+function App() 
+const [page, setPage] = useState("home")
+mićemo this.state jer je this u klasnim
+pageHandleru ide u const
+
+probamo da radi:
+npm i
+npm run dev
+VITE v4.1.4  ready in 1238 ms ➜  Local:   http://localhost:5173/
+
+Kompe Header i About i Home i Main pretvoriti u finkcijkse
+
+dodajemo kompu koja će imati counter i imati svoje stanje: Counter
+ubaciti je u App.jsx
+u Counter dodajemo spread operator primjer (setObj),
+zatim setIme 
+
+_______________
+ZADATAK: 
+Zadatak useState:
+        pocetno stanje:
+         ime: <ime>
+         
+         
+        onMouseOver:
+        prezime: <prezime>
+
+        onMouseOut:
+        ime: <ime>

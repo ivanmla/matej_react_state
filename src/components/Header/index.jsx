@@ -1,11 +1,9 @@
-import { Component } from 'react'
 
-export default class Header extends Component {
-  render() {
+// export default function Header(props) {
+export default function Header({page, pageHandler}) { // a može se odmah ovdje i destriktirirati
     return (
       <header>
-        <button onClick={this.props.pageHandler}>Go to {this.props.page === "Home" ? "About" : "Home"}</button>
+        <button onClick={ pageHandler }>Go to {page === "Home" ? "About" : "Home"}</button>
       </header>
     )
-  }
 }
