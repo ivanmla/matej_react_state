@@ -4,7 +4,7 @@ pogledati videe
 tutorial za UseState: https://youtu.be/O6P86uwfdR0
 
 UKRATKO će predavač ponoviti State
-i useEffect (bitno)novo: u funkcijskim komponentama, novo dodano sa useStatom 
+i useEffect (bitno) novo: u funkcijskim komponentama, novo dodano sa useStatom 
 lifecycle (teoretski) malo, koristi se u klasama
 
 
@@ -40,12 +40,18 @@ zatim setIme
 _______________
 ZADATAK: 
 Zadatak useState:
-        pocetno stanje:
-         ime: <ime>
-         
-         
-        onMouseOver:
-        prezime: <prezime>
+    NA h1 (HomePage) napraviti: 
 
-        onMouseOut:
+    pocetno stanje:
         ime: <ime>
+        
+        
+    onMouseOver:
+    prezime: <prezime>
+
+    onMouseOut:
+    ime: <ime>
+
+commitano kao ponavljanje i zadan zadatak na branch ponavljanje-state
+
+RJEŠENJE ZADATKA:
