@@ -6,3 +6,6 @@ $ git checkout -b "hooks"
 
 make chanfes to function
 
+$ git add .
+$ git commit -m "useState hook example"
+$ git push origin hooks
