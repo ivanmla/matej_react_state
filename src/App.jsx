@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import './App.css'
+import Ugnjezdena from './components/Ugnjezdena'
 
 function App() {
   const [text, setText] = useState("Matej")
@@ -17,6 +18,7 @@ function App() {
   return (
     <div className="App">
       <span onMouseOver={toggleText} onMouseOut={toggleText}>{ label } : { text }</span>
+      <Ugnjezdena text={text}/>
     </div>
   )
 }
