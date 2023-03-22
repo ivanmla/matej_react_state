@@ -58,5 +58,15 @@ predavač commitao u hooks kao 'other components changed' commit
 RJEŠENJE ZADATKA:
 u App.jsxu staviti span, urediti file 
 
-slajdovi
+kreirao  sam nov branch iz ovoga (ponavljanje-state)
+$ git checkout -b "ponavljanje-state-zadatak"
+$ git add .
+$ git commit -m "rjesenje zadatka ponavljanja"
+----
+save this doc
+git commit -m "rjesenj zadatka opis.tx ažuriran"
+----
+$ git push --set-upstream origin ponavljanje-state-zadatak
+
+SLIDEOVI
 
