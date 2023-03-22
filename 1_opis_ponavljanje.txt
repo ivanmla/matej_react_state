@@ -53,5 +53,10 @@ Zadatak useState:
     ime: <ime>
 
 commitano kao ponavljanje i zadan zadatak na branch ponavljanje-state
+predavač commitao u hooks kao 'other components changed' commit
 
 RJEŠENJE ZADATKA:
+u App.jsxu staviti span, urediti file 
+
+slajdovi
+
